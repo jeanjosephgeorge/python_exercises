@@ -67,14 +67,14 @@
 #     for innerIndex in range (1,11,3):
 #         print (outerIndex,"x",innerIndex,"=", outerIndex*innerIndex)
 
-l1 = [1,5,3,6,7]
-l2 = [3,6,9,10,2]
-l3 = []
+# l1 = [1,5,3,6,7]
+# l2 = [3,6,9,10,2]
+# l3 = []
 
-for x in l1:
-    total = 0
-    for y in l2:
-        total += x*y
-    #print ("list3: ",l3)
-    l3.append(total)
-print (l3)
+# for x in l1:
+#     total = 0
+#     for y in l2:
+#         total += x*y
+#     #print ("list3: ",l3)
+#     l3.append(total)
+# print (l3)

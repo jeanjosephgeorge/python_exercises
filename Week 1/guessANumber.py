@@ -51,19 +51,19 @@
 
     # 4. LIMIT NUMBER OF GUESSES
 
-import random
-secretNumber = random.randint(1,10)
-print("I am thinking of a number between 1 and 10.")
-num = ""
-guess = 1
-# STILL A WIP - did not finish
-while (num!=secretNumber):
-    num = int(input("What's the number?\n"))
-    if (num<0 or num>10):
-        print(("Number not in range"))
-    elif (num<secretNumber):
-        print(num,"is too low.")
-    elif (num)>secretNumber:
-        print(num,"is too high.")
-print("Yes! You win!")
+# import random
+# secretNumber = random.randint(1,10)
+# print("I am thinking of a number between 1 and 10.")
+# num = ""
+# guess = 1
+# # STILL A WIP - did not finish
+# while (num!=secretNumber):
+#     num = int(input("What's the number?\n"))
+#     if (num<0 or num>10):
+#         print(("Number not in range"))
+#     elif (num<secretNumber):
+#         print(num,"is too low.")
+#     elif (num)>secretNumber:
+#         print(num,"is too high.")
+# print("Yes! You win!")
 
