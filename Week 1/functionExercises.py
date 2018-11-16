@@ -106,22 +106,21 @@ import matplotlib.pyplot as plot
 
 #7.     DEGREE CONVERSION
 
-import matplotlib.pyplot as plot
+# import matplotlib.pyplot as plot
 
-# x=int(input("Temperature to convert to Fahrenheit\n"))
 
-def Cel(x):
-    y=(x*1.8)+32
-    return y
+# def Cel(x):
+#     y=(x*1.8)+32
+#     return y
 
-xs=list(range(0,50))
-ys=[]
+# xs=list(range(0,50))
+# ys=[]
 
-for x in xs:
-    ys.append(Cel(x))
+# for x in xs:
+#     ys.append(Cel(x))
 
-plot.plot (xs,ys)
-plot.show ()
+# plot.plot (xs,ys)
+# plot.show ()
 
 
 #8 and 9. PLAY AGAIN
