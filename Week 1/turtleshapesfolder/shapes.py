@@ -4,6 +4,11 @@ def Circle():
     circle(90)
     mainloop()
 
+def EquiTri():
+    for i in range(3):
+        forward(100)
+        left(120)
+    mainloop()
 
 def Star():
     for i in range(5):
@@ -17,4 +22,3 @@ def Square():
         right(90)
     mainloop()
 
-Square ()
